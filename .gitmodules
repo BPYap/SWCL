@@ -1,0 +1,6 @@
+[submodule "SupContrast"]
+	path = SupContrast
+	url = https://github.com/HobbitLong/SupContrast
+[submodule "big_transfer"]
+	path = big_transfer
+	url = https://github.com/google-research/big_transfer
