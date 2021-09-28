@@ -4,7 +4,7 @@ Learning for Retinal Fundus Images](https://arxiv.org/abs/2108.02122)".
 
 ## Installation
 ```
-python -m virtualenv env
+python -m virtualenv -p 3.6 env
 source env/bin/activate
 
 pip install -r requirements.txt
