@@ -12,14 +12,14 @@ python setup.py install
 ```
 
 ## Download links - pretrained weights (PyTorch)
-- [Pseudo-labeler (ResNet-34 with reduced stride)](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/EoU_B0FhmhVBnIwB578kRK4BALLed7r4VkasPikJh1uSvg?e=szw9dm)
-- [SWCL (ResNet-18)](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/Ev3BjboflPFHkp2bEpdeGugBLdjAwcGtHA1J1vyBrW_rWg?e=wXB9Lb)
-- [SWCL (ResNetv2-50x1)](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/EpE_suev4MJFq4ZIkaFPpwABOtrembgLLr7UKW6o7C4EzQ?e=y43l1Q)
+- [Pseudo-labeler (ResNet-34 with reduced stride)](https://drive.google.com/drive/folders/1nHW8SKB68a-6vAMJzg_2iWbf4l3TmCdx?usp=sharing)
+- [SWCL (ResNet-18)](https://drive.google.com/drive/folders/1tYfeRuFAL_bCv8GVAM7L7iBlZGFhnWi1?usp=sharing)
+- [SWCL (ResNetv2-50x1)](https://drive.google.com/drive/folders/1CzAfwDHv2haPTxoktywR7EgRN697_jwG?usp=sharing)
 
 ## Download links - preprocessed datasets
-- [Kaggle-EyePACS](https://entuedu-my.sharepoint.com/:u:/g/personal/boonpeng001_e_ntu_edu_sg/EX7LeAu8GhRCk_CkcUBJ_moBCDi1bAC8feDih0yUY8tB1A?e=JJfgz6)
-- [OIA-ODIR](https://entuedu-my.sharepoint.com/:u:/g/personal/boonpeng001_e_ntu_edu_sg/EcpeG6S5FEtImvXg3OUAj_MBTIre45Lkt47B_UbjfTf5Ag?e=XNwlaA) 
-- [retinal-SWAP](https://entuedu-my.sharepoint.com/:u:/g/personal/boonpeng001_e_ntu_edu_sg/EVHAHVJM5VpGp-JBv6EtWswBl7glH-B_ybsJfjUZQhPkHw?e=wBC24I)
+- [Kaggle-EyePACS](https://drive.google.com/file/d/1HlWXdG6Oan4PakRdLJ26QcKkMY767jmq/view?usp=sharing)
+- [OIA-ODIR](https://drive.google.com/file/d/121h518aNBLzGksS1HoRyt_cONvc8nogL/view?usp=sharing) 
+- [retinal-SWAP](https://drive.google.com/file/d/1GnL9GqXSeKY_1lJS5iT9hTy4Ta3TOCTv/view?usp=sharing)
 
 ## Reproducibility guide
 ##### Step 1: Download and preprocess the Kaggle-EyePACS dataset
@@ -127,7 +127,7 @@ python script/5_pretrain_swcl.py \
 ```
 
 ##### Step 6: Fine-tune on downstream tasks
-The resized downstream datasets used in the paper are available for download [here](https://entuedu-my.sharepoint.com/:f:/g/personal/boonpeng001_e_ntu_edu_sg/Ei4JmTZjDL1BseeJxE6OKRgBKRA8WXV4Do7F4hf9ZV7U7g?e=X6ns0C).
+The resized downstream datasets used in the paper are available for download [here](https://drive.google.com/drive/folders/1YYuIwMLHdfDm9rh5cT4dH5QiGKgRGiiQ?usp=sharing).
 
 Example for glaucoma classification on REFUGE-cls dataset:
 ```
